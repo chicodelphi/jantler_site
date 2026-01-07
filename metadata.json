@@ -1,0 +1,7 @@
+{
+  "description": "Jantler Advocacia - Landing Page de alto luxo e conversão para o Dr. Alan Jantsch, especialista em Direito do Consumidor e Previdenciário.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "name": "Jantler Advocacia"
+}
