@@ -130,10 +130,11 @@ const App = () => {
           <div className="relative w-full max-w-md aspect-[3/4] overflow-hidden group">
             {/* The provided image shows a man with a beard and dark hair. Replicating that look. */}
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
-              alt="Dr. Alan Jantsch" 
-              className="w-full h-full object-cover grayscale brightness-90 group-hover:grayscale-0 transition-all duration-1000"
-            />
+			src="/images/alan-jantsch.png"
+			alt="Dr. Alan Jantsch"
+			className="w-full h-full object-cover grayscale brightness-90 group-hover:grayscale-0 transition-all duration-1000"
+			/>
+
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
             <div className="absolute bottom-8 left-8 space-y-1">
               <p className="text-white font-bold text-2xl serif">Alan Jantsch</p>
@@ -240,10 +241,9 @@ const App = () => {
           <div className="order-1 lg:order-2 relative">
             <div className="aspect-square bg-white/5 overflow-hidden border border-white/10 p-4">
                <img 
-                src="https://images.unsplash.com/photo-1556157382-97dee2dcb7ae?q=80&w=2070&auto=format&fit=crop" 
-                alt="Escritório Jantler" 
-                className="w-full h-full object-cover grayscale opacity-80"
-              />
+				src="/images/escritorio.jpg"
+				alt="Escritório Jantler"
+				className="w-full h-full object-cover grayscale opacity-80"/>
             </div>
             {/* Minimalist floating element */}
             <div className="absolute -bottom-10 -right-10 bg-white text-black p-10 hidden md:block">
